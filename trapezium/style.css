@@ -1,0 +1,42 @@
+* {
+    transition: 0.25s;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    width: 50%;
+    color: white;
+    margin: 0;
+    margin-left: calc(50% - 25%);
+    padding: 0;
+}
+
+input {
+    border-radius: 100px;
+    border: none;
+    margin-top: 3px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+input[type=button] {
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    scale: 1.1;
+}
+
+input[type=button]:active {
+    scale: 0.9;
+}
+
+#formula {
+    font-style: italic;
+}
